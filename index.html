@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="assete/css/stayle-calcu.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  </head>
+  <body>
+    <section class="container">
+      <form action="">
+        <div>
+          <input id="result-0" class="result-calc" type="text" placeholder="0" />
+        </div>
+        <div class="c">
+          <input class="b-c" type="button" value="c" name="cle" onclick="reset()" />
+          <span>"javascriptcalautor"</span>
+        </div>
+       
+        <div class="row">
+          <input type="button" name="abs" value="|x|"  onclick="opretor('abs')"/>
+          <input type="button" name="bsum" value="+"  onclick="addinresult(bsum.value)"/>
+          <input type="button" name="b9" value="9"  onclick="addinresult(b9.value)" />
+          <input type="button" name="b8" value="8" onclick="addinresult(b8.value)" />
+          <input type="button" name="b7" value="7" onclick="addinresult(b7.value)" />
+        </div>
+        <div class="row">
+          <input type="button" name="sqrt" value="&radic;"  onclick="opretor('sqrt')"/>
+          <input type="button" name="bsub" value="-"  onclick="addinresult(bsub.value)"/>
+          <input type="button" name="b6" value="6"  onclick="addinresult(b6.value)"/>
+          <input type="button" name="b5" value="5"  onclick="addinresult(b5.value)"/>
+          <input type="button" name="b4" value="4"  onclick="addinresult(b4.value)"/>
+        </div>
+        <div class="row">
+          <input type="button" name="round" value="rou"  onclick="opretor('round')"/>
+          <input type="button" name="mult" value="*"  onclick="addinresult(mult.value)"/>
+          <input type="button" name="b3" value="3" onclick="addinresult(b3.value)" />
+          <input type="button" name="b2" value="2"  onclick="addinresult(b2.value)"/>
+          <input type="button" name="b1" value="1"  onclick="addinresult(b1.value)"/>
+        </div>
+        <div class="row">
+          <input type="button" name="pow" value="^"  onclick="opretor('pow')"/>
+          <input class="green" type="button" name="equal" value="="  onclick="finiliz()"/>
+          <input type="button" name="div" value="/"  onclick="addinresult(div.value)"/>
+          <input type="button" name="point" value="."  onclick="addinresult(point.value)"/>
+          <input type="button" name="b0" value="0"  onclick="addinresult(b0.value)"/>
+        </div>
+      </form>
+    </section>
+    <script src="assete/js/calculator.js"></script>
+  </body>
+</html>

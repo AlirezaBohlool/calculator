@@ -1,0 +1,77 @@
+/* calculator start container */
+*{
+    font-size: 30px;
+    font-family: 'Zen Kurenaido', sans-serif;
+    
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh
+}
+section{
+    box-shadow: 1px 1px 11px 0px black;
+   
+}
+.container {
+  background-color: rgb(212, 209, 209);
+  width:280px;
+  min-height: 300px;
+  border-radius: 10px;
+}
+input{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+.result-calc {
+  width: 98.6%;
+  height: 80px;
+  border: none;
+  background-color: rgb(5, 197, 37);
+  border-radius: 8px 8px 0px 0px ;
+  outline: none;
+  font-size: 30px;
+  color: #fff;
+  text-align: right;
+}
+form .b-c{
+    background-color: red;
+    text-align:center;
+    float: left;
+    width: 50px;
+    height: 50px;
+    border:none;
+    border-radius: 50%;
+    margin: 2px 0px 5px 4px;
+    color: #fff;
+    
+
+
+}
+div .c{
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.green{
+    background-color: rgb(115, 189, 4);
+    color: #fff;
+}
+span{
+    font-size: 22px;
+    text-align: left;
+}
